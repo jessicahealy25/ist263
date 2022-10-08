@@ -1,5 +1,5 @@
 p, ul, td, th {
-    color:brown;
+    color:red;
     font-family:Times New Roman, Arial;
 }
   
@@ -8,9 +8,9 @@ h1 {
     font: size 200%;
 }
 h2 {
-    color:blueviolet;
+    color:darkmagenta;
     font-size:100%;
 }
 .evenrow{
-    background-color: aquamarine;
+    background-color:darkgreen;
 }
