@@ -1,15 +1,29 @@
 p, ul, td, th {
-  color: #ffd100;
+  color:#E6DFCF;
 font-family: Times New Roman, Arial;
+background-color: #5B4A66;
 }
-hl {
-    color: #A29FFF;
+h1 {
+    color: #5B4A66;
     font-size: 200%;
 }
 h2 {
-    color: #83DEFF;
+    color: #5B4A66;
     font-size:  100%;
 }
-.evenrow {
-    background-color: #00015E;
+
+body {
+
+    background-color: #EFE3F3;
+   
+}
+nav a{
+    color:#E6DFCF;
+    background-color:#5B4A66;
+}
+
+nav {
+    border: #E6DFCF;
+    padding: 10px;
+    margin-bottom: 30px; 
 }
