@@ -1,15 +1,5 @@
-p{
-    color:#b042b0;
-    background-color: #fff4d6;
-}
 
-a:visited {
-    color: #00ff00;
-}
 
-a:hover {
-    color: #b042b0;
-}
 body {
     background-color: #000000;
     background-image: url("../images/otto\ syracuse\ mascot.html");
@@ -17,7 +7,7 @@ body {
     background-repeat: repeat-y;
 }
 
-.second {
+p {
     border: 2px solid #ffac00;
     padding: 10px;
     margin: 20px;

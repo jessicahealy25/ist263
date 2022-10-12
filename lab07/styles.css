@@ -1,0 +1,15 @@
+p, ul, td, th {
+  color: #ffd100;
+font-family: Times New Roman, Arial;
+}
+hl {
+    color: #A29FFF;
+    font-size: 200%;
+}
+h2 {
+    color: #83DEFF;
+    font-size:  100%;
+}
+.evenrow {
+    background-color: #00015E;
+}
