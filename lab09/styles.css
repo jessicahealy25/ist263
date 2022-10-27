@@ -46,6 +46,12 @@ h1 {
 text-align: center;
 }
 .images {
-    width: 150px; 
+    width: 50px; 
+    padding: 10px;
+}
 
+div {
+    display: flex;
+    margin: 5px;
+ 
 }
