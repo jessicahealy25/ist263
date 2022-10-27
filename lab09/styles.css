@@ -1,0 +1,42 @@
+p, ul, td, th {
+  color:#E6DFCF;
+font-family: Times New Roman, Arial;
+background-color: #5B4A66;
+}
+h1 {
+    color: #5B4A66;
+    font-size: 200%;
+}
+h2 {
+    color: #5B4A66;
+    font-size:  100%;
+}
+
+a:visited {
+    background-color: #5B4A66;
+}
+
+nav a:hover{
+    background-color: #bdb8c0;
+    color: #EFE3F3
+}
+body {
+
+    background-color: #EFE3F3;
+   
+}
+nav a{
+    color:#E6DFCF;
+    background-color:#5B4A66;
+}
+
+nav {
+    border: #E6DFCF;
+    padding: 10px;
+    margin-bottom: 30px; 
+}
+
+.quote {
+    float: right;
+    
+}
