@@ -66,3 +66,15 @@ aside {
     justify-content: right;
     color:aqua; 
 }
+
+.technicalskills {
+   text-align: center;
+   justify-content: center;
+}
+
+.flexbox2 {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 20px;
+    justify-content: right;
+}
