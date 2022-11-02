@@ -1,0 +1,27 @@
+p, ul, td, th {
+    color:#E6DFCF;
+  font-family: Times New Roman, Arial;
+  background-color: #5B4A66;
+
+  }
+  h1 {
+      font-size: 200%;
+      text-align: left;
+      color: #5B4A66;
+  }
+  h2 {
+    color: #5B4A66;
+    font-size:  100%;
+    background-color: #bdb8c0;
+    border-radius: 20px;
+
+    
+}
+
+  div {
+  display: flex;
+  margin: 5px;
+  float: left;
+  padding: 5px;
+
+  }
