@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            .row1, .row2 {
+                display:flex;
+            }
+
+            .row1 div {
+                flex: 1;
+                background-color: #88c9f7;
+                padding: 10px;
+                margin-bottom: 30px;
+                border-radius: 25px;
+                width: 10px;
+            }
+
+            .row2 div {
+                flex: 1;
+                background-color: #5B4A66;
+                padding: 10px;
+                margin-bottom: 10px;
+                border-radius: 25px;
+                width: 10px;
+            }
+
+            .flex-container {
+                flex-wrap: wrap;
+            }
+        </style>
+    </head>
+
+
+<body>
+    <h1>Contact</h1>
+    <h2>Address</h2>
+    <div class= "row1"></div>
+    <div> 
+            <p>
+            Jessica Healy<br>
+            Syracuse University<br>
+            505 Walnut Avenue<br>
+            Syracuse, NY 13210<br>
+        </p>
+    </div>
+        <div>
+            <p>My email link:<a href="mailto:jrhealy@syr.edu">jrhealy@syr.edu</a></p>
+            <p><a href="https://www.linkedin.com/feed/" target="_blank">My LinkedIn Profile:<img src="../images/logosizedpng.png" alt="My LinkedIn Page"></a></p><br>
+        </div>
+ 
+
+    <div class= "row2">
+    <div>
+            <h1>Get in touch</h1>
+<form action="https://formspree.io/f/meqdgapl" method="POST">
+    <p>Please select your gender:</p>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br>
+    <label for="comments">Comments:</label>
+    <textarea id="comments" name="comments"></textarea><br>
+    <label for="howtobereached">How to be reached:</label>
+    <select id="howtobereached" name="howtobereached">
+        <option value="email">email</option>
+        <option value="cell phone">cell phone</option>
+        <option value="address">address</option>
+        <option value="other">other</option>
+        <option value="other" selected>other</option>
+    </select><br>
+    <input type="submit" value="send my form">
+</form>
+        </div>
+        <div>
+            <p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.754506501559!2d-76.13401758453267!3d43.04659647914679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3a762f3834f%3A0x5e6a3dfb6b9f8ae0!2sThe%20505%20on%20Walnut!5e0!3m2!1sen!2sus!4v1663256289428!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </p>
+        </div>
+    </div>
+    
+
+   
+
+</body>
+</html>
