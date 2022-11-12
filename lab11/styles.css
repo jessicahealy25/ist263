@@ -1,10 +1,10 @@
 p, ul, td, th {
   color:#ffffff;
 font-family: Times New Roman, Arial;
-background-color: #5B4A66;
+background-color: #3f3447;
 }
 h1 {
-    color: #5B4A66;
+    color: #3f3447;
     font-size: 200%;
 }
 h2 {
@@ -15,7 +15,7 @@ h2 {
 }
 
 a:visited {
-    background-color: #5B4A66;
+    background-color: #3f3447;
 }
 
 nav a:hover{
@@ -29,14 +29,14 @@ body {
 }
 nav a{
     color:#ffffff;
-    background-color:#5B4A66;
+    background-color:#3f3447;
 }
 
 nav {
     border: #ffffff;
     padding: 10px;
     margin-bottom: 30px; 
-    background-color: #5B4A66;
+    background-color: #3f3447;
 }
 
 .quote {
