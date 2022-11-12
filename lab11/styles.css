@@ -60,12 +60,12 @@ div {
 }
 
 aside {
-    background-color: #bdb8c0;
+    background-color: #39373a;
     width: 30%;
     border-radius: 20px;
     float: right;
     justify-content: right;
-    color:aqua; 
+    color:rgb(226, 226, 226); 
 }
 
 .technicalskills {
