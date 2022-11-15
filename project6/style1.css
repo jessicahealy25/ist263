@@ -14,6 +14,7 @@ p, ul, td, th {
     font-size:  100%;
     background-color: #495716;
     border-radius: 20px;
+    text-align: center;
   }
 
   p {
@@ -24,7 +25,6 @@ p, ul, td, th {
    body {
       background-color: #fff5d7;
     }
-    
 
   div {
   display: flex;
