@@ -1,22 +1,24 @@
 p, ul, td, th {
-    color:#E6DFCF;
+    color:#9bc400;
   font-family: Times New Roman, Arial;
-  background-color: #5B4A66;
+  background-color: #8076a3;
 
   }
   h1 {
       font-size: 200%;
       text-align: left;
-      color: #5B4A66;
+      color: #8076a3;
   }
   h2 {
-    color: #5B4A66;
+    color: #8076a3;
     font-size:  100%;
-    background-color: #bdb8c0;
+    background-color: #9bc400;
     border-radius: 20px;
-
+  }
+   body {
+      background-color: #fff5d7;
+    }
     
-}
 
   div {
   display: flex;
