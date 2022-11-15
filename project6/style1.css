@@ -1,18 +1,18 @@
 p, ul, td, th {
-    color:#9bc400;
+    color:#495716;
   font-family: Times New Roman, Arial;
-  background-color: #8076a3;
+  background-color: #2f00da;
 
   }
   h1 {
       font-size: 200%;
       text-align: left;
-      color: #8076a3;
+      color: #ffffff;
   }
   h2 {
-    color: #8076a3;
+    color: #ffffff;
     font-size:  100%;
-    background-color: #9bc400;
+    background-color: #495716;
     border-radius: 20px;
   }
    body {
