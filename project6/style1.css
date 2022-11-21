@@ -8,6 +8,7 @@ p, ul, td, th {
       font-size: 200%;
       text-align: center;
       color: #2f00da;
+  
   }
   h2 {
     color: #ffffff;
@@ -15,21 +16,34 @@ p, ul, td, th {
     background-color: #495716;
     border-radius: 20px;
     text-align: left;
-  }
+
+}
 
   p {
     color:#ffffff;
     background-color: #2f00da;
-  }
+ 
+}
 
    body {
       background-color: #fff5d7;
     }
 
   div {
-  display: flex;
   margin: 5px;
   float: left;
   padding: 5px;
 
   }
+
+  .flex-container {
+    flex-wrap: wrap;
+  }
+
+  @media only screen and (max-width: 667px) 
+{
+    .img1 {
+        max-width: 100%;
+        display: block;
+    }
+}
