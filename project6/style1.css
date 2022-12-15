@@ -37,6 +37,10 @@ p, ul, td, th {
         max-width: 100%;
         display: block;
     }
+
+    .nav{
+      flex-direction: column;
+    }
 }
 
 p,body{
@@ -49,10 +53,18 @@ h1, h2{
   font-weight: 400;
 }
 
-.nav {
+.nav{
   display: flex;
   justify-content: space-around;
   margin-bottom: 20px;
   margin-top: 20px;
+  border-radius: 20px;
   
+  
+}
+
+
+
+img, .pic{
+border: 5px solid #495716;
 }
