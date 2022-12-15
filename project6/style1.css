@@ -14,7 +14,7 @@ p, ul, td, th {
     font-size:  20px;
     background-color: #495716;
     border-radius: 20px;
-    text-align: left;
+    text-align: center;
 
 }
 
@@ -28,16 +28,8 @@ p, ul, td, th {
       background-color: #fff5d7;
     }
 
-  div {
-  margin: 5px;
-  float: left;
-  padding: 5px;
 
-  }
-
-  .flex-container {
-    flex-wrap: wrap;
-  }
+ 
 
   @media only screen and (max-width: 667px) 
 {
@@ -55,4 +47,12 @@ p,body{
 h1, h2{
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  
 }
